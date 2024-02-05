@@ -15,3 +15,8 @@
     ```
 
 This will start a local server and open the app in your default web browser.
+
+3. Find the model implementation details in the [Simple-Movie-Recommendation-System](/movie_recommendation.ipynb) notebook.
+
+4. The app has been deployed [here](https://simple-movie-recommendation-system-flick-pick.streamlit.app/).
+
