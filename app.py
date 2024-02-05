@@ -71,7 +71,7 @@ Thus, the NN model was chosen as it offered better accuracy and flexibility in i
 st.header('Recommendation Demo')
 movie_recommendation_file = 'movie_recommendations.csv'
 movie_recommendations_df = pd.read_csv(movie_recommendation_file)
-user_input = st.text_input('Enter your user id:', '')
+user_input = st.text_input('Enter your user id:', '1')
 result_df = movie_recommendations_df[movie_recommendations_df['userId'] == int(user_input)]
 if len(result_df) != 0 :
     st.write('Recommended Movies have the following titles:', result_df['title'].iloc[0])
