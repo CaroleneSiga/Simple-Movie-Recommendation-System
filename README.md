@@ -4,6 +4,14 @@
 
 1. Please install the requirements listed in `requirements.txt` using the following command:
 
-```bash
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+    ```
 
+2. To run the app locally, use the following command:
+
+    ```bash
+    streamlit run app.py
+    ```
+
+This will start a local server and open the app in your default web browser.
